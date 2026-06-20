@@ -47,7 +47,6 @@ The terminal will show a local URL (and a public `share=True` link if enabled) t
 - `app.py` — Gradio frontend that calls the summarizer.
 - `summarizer.py` — Builds the chat request to the model and returns the summary.
 - `scraper.py` — Fetches and extracts website text for summarization.
-- `groq_call.py` — Example showing how to point the `OpenAI` client at Groq.
 
 ## Usage
 Open the Gradio link shown in the terminal, paste a website URL, and click to generate a short markdown summary.
@@ -58,6 +57,3 @@ Open the Gradio link shown in the terminal, paste a website URL, and click to ge
 
 ## Contributing
 Improvements, bug fixes, and model-switching PRs are welcome.
-
-## License
-Add a license file if you plan to publish this repository publicly (MIT recommended for examples).
